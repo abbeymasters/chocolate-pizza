@@ -1,0 +1,61 @@
+
+
+.hr {
+    background-image: url("./assets/hr-img.png");
+    background-repeat: repeat-y repeat-x;
+    width: 95%;
+    height: 15px;
+ }
+
+ h1 {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+ }
+
+ .tagline {
+    font-family: 'Fira Code', monospace;
+    text-transform: uppercase;
+    font-size: .4em;
+ }
+
+ h2 {
+     font-family: Heebo;
+     font-size: 36px;
+ }
+
+ .metadata, .print {
+     font-family: Fira Code;
+     text-transform: uppercase;
+     font-size: .75em;
+     color: #a1a1a1;
+ }
+
+ p {
+    font-family: Georgia;
+    text-indent: 3%;
+ }
+
+label {
+    font-family: Comic Sans MS;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.footer-text {
+    font-size: 14px;
+    color: #a1a1a1;
+}
+
+.share {
+    background-color: #bb705b;
+    font-family: Roboto;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px 35px;
+}
