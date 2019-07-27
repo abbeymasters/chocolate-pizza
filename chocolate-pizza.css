@@ -64,6 +64,7 @@ h1 {
 label {
     font-family: Comic Sans MS;
     font-size: 18px;
+    line-height: 2.3em;
 }
 
 h3 {
@@ -88,7 +89,7 @@ h3 {
 
 .recipe {
     background-image: url('./assets/list-bg.png');
-    background-size: 100%;
+    background-size: cover;
     height: 305px;
     color:#424242;
     display:flex;
@@ -96,24 +97,24 @@ h3 {
     align-items: baseline;
     flex-wrap:wrap;
     padding:37px 55px;
-    }
+}
     
-    .left {
-       height:100%;
-       display:flex;
-       flex-direction: column;
-    }
+.left {
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
     
-    .right{
-       height:100%;
-       display:flex;
-       flex-direction: column;
-       margin-left:150px;
-       flex-wrap:wrap;
-       width:400px;
-    }
+.right{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    margin-left:150px;
+    flex-wrap:wrap;
+    width:400px;
+}
     
-    .about-author {
-       display:flex;
-    
-    }
+.about-author {
+    display:flex;
+
+}
