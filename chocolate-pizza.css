@@ -55,7 +55,7 @@ body {
      color: #a1a1a1;
  }
 
- p {
+ .indent {
     font-family: Georgia;
     text-indent: 3%;
  }
@@ -84,6 +84,9 @@ h3 {
     text-transform: uppercase;
     color: white;
     padding: 15px 35px;
+    display: flex;
+    align-self: center;
+    
 }
 
 .recipe {
@@ -96,6 +99,8 @@ h3 {
     align-items: baseline;
     flex-wrap: wrap;
     padding: 37px 55px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
     
 .striked {
@@ -119,5 +124,26 @@ h3 {
     
 .about-author {
     display:flex;
-
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 30px;
 }
+
+#vanessa-text {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.about-author img {
+    display: flex;
+    align-self: center;
+}
+
+.about-author p {
+    font-family: Georgia;
+    color:#707070;
+}
+
