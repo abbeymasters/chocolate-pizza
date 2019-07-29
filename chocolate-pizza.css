@@ -5,16 +5,20 @@ body {
 
 #top-header {
     display: flex;
+    margin-bottom: 30px;
+    line-height: 1.6em;
 }
 
 #top-header img {
     display: flex;
-    align-self: center;
 }
 
 #logo-area {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    width: 40%;
+    margin-left: 10px;
 }
 
 #social-icons {
@@ -34,6 +38,7 @@ body {
  h1 {
     font-family: 'Pacifico', cursive;
     font-style: italic;
+    margin: 0;
  }
 
  .tagline {
@@ -43,17 +48,48 @@ body {
     grid-area: tagline;
  }
 
- h2 {
-     font-family: Heebo;
-     font-size: 36px;
+
+ /* starting title section */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    text-align: left;
+    width: 100%;
  }
 
- .metadata, .print {
+#title-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    align-content: center;
+    line-height: 1.5em;
+}
+
+.print {
+    justify-content: flex-end;
+    align-self: center;
+}
+ 
+ 
+h2 {
+    font-family: Heebo;
+    font-size: 36px;
+    margin: 0px;
+}
+
+.metadata, .print {
      font-family: Fira Code;
      text-transform: uppercase;
      font-size: .75em;
      color: #a1a1a1;
  }
+
+ /* Starting recipe section */
 
  .indent {
     font-family: Georgia;
@@ -84,9 +120,11 @@ h3 {
     text-transform: uppercase;
     color: white;
     padding: 15px 35px;
-    display: flex;
     align-self: center;
-    
+}
+
+.share:hover {
+    opacity: .7;
 }
 
 .recipe {
@@ -124,11 +162,13 @@ h3 {
     
 .about-author {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     flex-direction: row;
     text-align: left;
     margin-bottom: 30px;
+    margin-top: 15px;
+    width: 100%;
 }
 
 #vanessa-text {
@@ -147,3 +187,35 @@ h3 {
     color:#707070;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.footer-text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+footer img {
+    opacity: .5;
+    width: 30px;
+}
+
+.footer-hr {
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0px;
+    color:#707070;
+    opacity: .3;
+}
+
+#divider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:#707070;
+}
